@@ -7,7 +7,7 @@ import { Bars3CenterLeftIcon, MagnifyingGlassIcon } from 'react-native-heroicons
 import {styles} from '../../theme/index';
 import TrendingMovies from '../../components/trendingMovies'
 
-const ios = Platform.OS === 'ios';
+const ios = Platform.OS === 'android';
 
 export default function HomeScreen() {
 

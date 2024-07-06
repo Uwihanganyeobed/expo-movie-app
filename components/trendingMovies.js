@@ -4,7 +4,7 @@ import React from 'react'
 export default function TrendingMovies() {
   return (
     <View>
-      <Text>trendingMovies</Text>
+      <Text className=' text-white'>trendingMovies</Text>
     </View>
   )
 }
