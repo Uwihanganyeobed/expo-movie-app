@@ -6,7 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 export default function AboutScreen() {
   return (
     <SafeAreaView>
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View>
         <Text>About Screen</Text>
       </View>
     </SafeAreaView>
