@@ -31,9 +31,10 @@ export default function HomeScreen() {
     <ScrollView
     showsVerticalScrollIndicator={false}
     contentContainerStyle={{paddingBottom: 10}}
-    />
+    >
     {/* trending movies */}
     <TrendingMovies data={trending} />
+    </ScrollView>
     </View>
   );
 }
