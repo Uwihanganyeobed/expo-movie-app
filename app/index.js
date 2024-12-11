@@ -1,7 +1,5 @@
-// app/index.js
-import React from 'react';
-import HomeScreen from './screens/HomeScreen';
+import SplashScreen from "./screens/SplashScreen";
 
 export default function App() {
-  return <HomeScreen />;
+  return <SplashScreen />;
 }
